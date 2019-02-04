@@ -14,7 +14,7 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentence
+  def count_sentences
     self.split(/[.?!]/).reject { |c| c.empty? }
   end
 end
